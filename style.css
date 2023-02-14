@@ -133,3 +133,32 @@ a {
   align-items: center;
   gap:10px;
 }
+
+.third-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.quote{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text{
+  width: 800px;
+  font-size: 36px;
+  opacity:0.5;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-author{
+ display: flex;
+ justify-content: flex-end;
+ font-weight: bold;
+ font-size: 18px;
+}
