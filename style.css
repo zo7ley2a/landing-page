@@ -131,34 +131,87 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:10px;
+  gap: 10px;
 }
 
-.third-section{
+.third-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
-.quote{
+.quote {
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
 }
 
-.quote-text{
+.quote-text {
   width: 800px;
   font-size: 36px;
-  opacity:0.5;
+  opacity: 0.5;
   font-style: italic;
-  color: #1F2937;
+  color: #1f2937;
 }
 
-.quote-author{
- display: flex;
- justify-content: flex-end;
- font-weight: bold;
- font-size: 18px;
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.call-to-action {
+  display: flex;
+  gap: 200px;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+.call-to-action-text {
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+}
+
+.call-to-action-main-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.call-button-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.call-to-action-button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #f9faf8;
+  color: #f9faf8;
+  font-weight: bold;
+  padding: 8px 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 20px 60px;
 }
